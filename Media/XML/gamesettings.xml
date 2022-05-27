@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Student Struggle" />
+  <renderer width="1024" height="768"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+	<sprite name="player" file="Player.png"/>
+	<sprite name="enemy" file="Enemy.png"/>
+	<sprite name="card" file="Card.png"/>
+	<sprite name="background" file="background.png"/>
+	<sprite name="node" file="node.png"/>
+	<sprite name="line" file="line.png"/>
+	<sprite name="doorClosed" file="doorClosed.png"/>
+	<sprite name="doorOpen" file="doorOpen.png"/>
+	<sprite name="mapBackground" file="mapBackground.png"/>
+	<sprite name="checkmark" file="checkmark.png"/>
+	<sprite name="winBackground" file="winBackground.png"/>
+	<sprite name="loseBackground" file="loseBackground.png"/>
+	<sprite name="paper" file="paper.png"/>
+	<sprite name="boss" file="boss.png"/>
+	<sprite name="nerd" file="nerd.png"/>
+	<sprite name="menuBackground" file="menuBackground.png"/>
+	<sprite name="playButton" file="playButton.png"/>
+	<sprite name="cardBackground" file="cardBackground.png"/>
+	<sprite name="laptop" file="laptop.png"/>
+	<sprite name="introBackground" file="introBackground.png"/>
+	<sprite name="playAgainButton" file="playAgainButton.png"/>
+	<sprite name="calendar" file="calendar.png"/>
+	<sprite name="cardShield" file="CardShield.png"/>
+	<sprite name="cardHealth" file="CardHealth.png"/>
+	<sprite name="cardDamage" file="CardDamage.png"/>
+	<sprite name="nerdBackground" file="nerdBackground.png"/>
+	
+    <sprite name="PlayerSpritesheet" file="PlayerSpritesheet.png"/>
+    <sprite name="PlayerRunning" sheet="PlayerSpritesheet" frames="6">
+      <frame index="0" left="0"   top="0" right="479"  bottom="797"/>
+      <frame index="1" left="480"  top="0" right="958" bottom="797"/>
+      <frame index="2" left="959" top="0" right="1457" bottom="797"/>
+      <frame index="3" left="1458" top="0" right="1916" bottom="797"/>
+	  <frame index="4" left="1917" top="0" right="2395" bottom="797"/>
+      <frame index="5" left="2396" top="0" right="2874" bottom="797"/>
+	</sprite>
+	
+	<sprite name="EnemySpritesheet" file="EnemySpritesheet.png"/>
+    <sprite name="EnemyRunning" sheet="EnemySpritesheet" frames="6">
+      <frame index="0" left="920"   top="0" right="1035"  bottom="177"/>
+      <frame index="1" left="0"  top="0" right="115" bottom="177"/>
+      <frame index="2" left="920" top="178" right="1035" bottom="354"/>
+      <frame index="3" left="0" top="178" right="115" bottom="354"/>
+	  <frame index="4" left="920" top="355" right="1035" bottom="531"/>
+      <frame index="5" left="0" top="355" right="115" bottom="531"/>
+	</sprite>
+	
+	<sprite name="BookSpritesheet" file="Booksheet.png"/>
+    <sprite name="BookTurning" sheet="BookSpritesheet" frames="19">
+      <frame index="0" left="0"   top="0" right="27"  bottom="34"/>
+      <frame index="1" left="28"  top="0" right="55" bottom="34"/>
+      <frame index="2" left="56" top="0" right="83" bottom="34"/>
+      <frame index="3" left="84" top="0" right="111" bottom="34"/>
+	  <frame index="4" left="112" top="0" right="139" bottom="34"/>
+      <frame index="5" left="140" top="0" right="167" bottom="34"/>
+	  <frame index="6" left="0"   top="35" right="27"  bottom="69"/>
+      <frame index="7" left="28"  top="35" right="55" bottom="69"/>
+      <frame index="8" left="56" top="35" right="83" bottom="69"/>
+      <frame index="9" left="84" top="35" right="111" bottom="69"/>
+	  <frame index="10" left="112" top="35" right="139" bottom="69"/>
+      <frame index="11" left="140" top="35" right="167" bottom="69"/>
+	  <frame index="12" left="0"   top="70" right="27"  bottom="104"/>
+      <frame index="13" left="28"  top="70" right="55" bottom="104"/>
+      <frame index="14" left="56" top="70" right="83" bottom="104"/>
+      <frame index="15" left="84" top="70" right="111" bottom="104"/>
+	  <frame index="16" left="112" top="70" right="139" bottom="104"/>
+      <frame index="17" left="140" top="70" right="167" bottom="104"/>
+	  
+	  <frame index="18" left="140" top="70" right="167" bottom="104"/>
+
+	</sprite>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds path="Media\Sounds">
+	<sound name="StudyTime" file="StudyTime.wav" instances="1"/>
+	<sound name="EndlessHomework" file="EndlessHomework.wav" instances="1"/>
+	<sound name="Lame" file="Lame.wav" instances="1"/>
+	<sound name="PlayerDamage" file="PlayerDamage.wav" instances="1"/>
+	<sound name="EnemyDamage" file="EnemyDamage.wav" instances="1"/>
+	<sound name="auto" file="Auto.wav" instances="1"/>
+	<sound name="PowerNap" file="PowerNap.wav" instances="1"/>
+	<sound name="Time" file="Time.wav" instances="1"/>
+  </sounds>
+</settings>

@@ -1,0 +1,4 @@
+This game uses the mouse. 
+Click a card to select then click an enemy or the player as indicated to play that card.
+Press G while in a battle to end the current level.
+Press Backspace to restart the game.
